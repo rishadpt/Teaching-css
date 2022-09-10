@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDevelopment</title>
+    <link rel="stylesheet" href="./styles/style.css" type="text/css">
+    <script type="text/javascript" src="./scripts/script.js"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="header-container">
+            <!-- Header main container !-->
+            <h1>WebDevelopment</h1>  
+            <div class="header__items">
+                <a href="/">Home</a>
+                <a href="#">About</a>
+                <a href="/feedback.html">feedback</a>
+                <a href="#">contact</a>   
+                <a href="/gallery.html">Gallery</a>
+            </div>
+            <a href="#" >Login</a>   
+        </div>
+
+        <div class="content" >
+            <h1 class="title-content" >Home page</h1>
+            <p id="display" >User is Clicked : <span id="user"></span></p>
+            
+            <ol>
+                <li onclick="getClicked(event)">
+                    apple
+                </li>
+                <li onclick="getClicked(event)">
+                    orange
+                </li>
+                <li onclick="getClicked(event)">
+                    mango
+                </li>
+            </ol>
+        </div>
+    </div>
+</body>
+
+</html>

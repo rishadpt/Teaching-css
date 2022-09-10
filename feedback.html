@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="./styles/style.css" type="text/css" />
+    <link rel="stylesheet" href="./styles/feedback.css" type="text/css" />
+    <script type="text/javascript" src="./scripts/script.js"></script>
+</head>
+
+<body>
+    <div class="feedback-container">   <!-- parent container--> 
+
+        <div class="header-container">
+            <!-- Header main container !-->
+            <h1>WebDevelopment</h1>
+            <div class="header__items">
+                <a href="/">Home</a>
+                <a href="#">About</a>
+                <a href="/feedback.html">feedback</a>
+                <a href="#">contact</a>
+                <a href="#">Gallery</a>
+            </div>
+            <a href="#">Login</a>
+        </div>
+
+        <form onsubmit="handleValidation(event);" class="form-container" >
+            <div class="input__row">
+                <label>username</label>
+                <input onmouseover="onMouse()" id="name" name="username" type="text" placeholder="Name"/>
+            </div>
+            <div class="input__row">
+                <label>Email</label>
+                <input  name="email"  id="email" type="email" placeholder="email"/>
+            </div>
+            <div class="input__row">
+                <label>password</label>
+                <input   name="password" id="password" type="password" placeholder="password"/>
+            </div>
+            <div class="input__row">
+                <label>tel</label>
+                <input  name="phone"  id="phone" type="tel" placeholder="tel"/>
+            </div>
+            <button type="submit">Submit </button>
+        </form>
+
+    </div>
+</body>
+
+</html>

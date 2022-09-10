@@ -1,0 +1,44 @@
+1) inline style      
+2) internal style  
+3) external style   
+
+
+Element selector 
+
+class="title"  .title
+id="title"     #title
+h1
+
+
+bem = block element modifier  its a naming
+
+
+
+display flex  direction is  row then justify-content is horizontally  & align-items is vertically 
+display flex direction is  column then justify-content is vertically  & align-items is horizontally 
+
+
+javascript 
+
+we can add javascript to the html document by adding <script></script> tag inside head / body tag
+ and we can also use external javascript file but we need to link it with html document with script tag
+
+
+ =  ==  ===
+
+ = 
+
+==  ===  //comparison 
+
+ ==     only check the value    
+
+ 1==1    ==  with values
+
+ 1===1  it will compare with values and data types
+
+
+1  is number 
+
+"hello" 'hello' is string because its written inside double quotes /single quotes
+
+true / false this is boolean
